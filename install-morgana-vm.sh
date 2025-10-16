@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 echo "========================================================"
-echo "  MORGANA INSTALLATION"
+echo "  MORGANA INSTALLATION2"
 echo "========================================================"
 
 if [ "$EUID" -ne 0 ]; then 
