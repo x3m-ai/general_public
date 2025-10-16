@@ -13,7 +13,7 @@ echo "[1/8] Updating system..."
 apt update && apt upgrade -y
 
 echo "[2/8] Installing Python and Git..."
-apt install -y python3 python3-pip python3-venv git curl ca-certificates gnupg
+apt install -y python3 python3-pip python3-venv git curl ca-certificates gnupg libxml2-dev libxslt1-dev python3-dev build-essential
 
 echo "[3/8] Installing Node.js..."
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
